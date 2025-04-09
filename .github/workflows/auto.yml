@@ -23,7 +23,7 @@ env:
 
 jobs:
   DifyWorkflow:
-    runs-on: ubuntu-latest
+    runs-on: GaussiandeMacBook-Pro
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
