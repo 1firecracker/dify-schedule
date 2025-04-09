@@ -23,7 +23,7 @@ env:
 
 jobs:
   DifyWorkflow:
-    runs-on: GaussiandeMacBook-Pro
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
